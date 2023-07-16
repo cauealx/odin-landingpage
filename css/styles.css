@@ -1,0 +1,146 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+#header {
+    display:flex;
+    background-color: #1F2937;
+    color:white;
+    justify-content: center;
+}
+
+.conteudo-topo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.logo {
+    color:aqua;
+    font-weight: 600; 
+}
+
+#capa {
+    display: flex;
+    background-color: #1F2937;
+    color:white;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.conteudo-capa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+}
+
+.tubarao {
+    width: 600px;
+}
+
+.main-text {
+    font-size: 38px;
+    color: white;
+}
+
+.primeiro-cta {
+    background-color: rgb(55, 0, 255);
+    color: white;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+#informations {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:#1F2937;
+}
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.information-img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.animal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imgs {
+    width: 300px;
+}
+
+#motivational {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+}
+
+.motivational-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.motivational-text {
+    width: 30%;
+}
+
+.autor {
+    padding-left: 270px;;
+}
+
+#cta {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100px;
+}
+
+.cta-content {
+    width: 50%;
+    background-color:blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao-cta {
+    font-size: 20px;
+    color: white;
+    background-color: blue;
+    border-color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 20px;
+}
